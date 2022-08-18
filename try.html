@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-navbar ">
+        <nav class="navbar bg-light fixed-top ">
+            <div class="container-fluid">
+                <div class=" d-flex col-12 col-lg-12 col-md-12 col-sm-12 my-auto">
+                    <div class="h-text d-flex align-items-center col-12 col-lg-6 col-md-12 col-sm-12">
+                        <button class="navbar-toggler border-0 align-items-center px-0 me-2 " type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar">
+                            <span class="nav pe-lg-2"><img class="menu" src="Img/menu btn.svg" alt=""></span>
+                        </button>
+                        <a class="navbar-brand heding-text" href="#"><img class="logo" src="/Img/logo.svg" alt=""></a>
+                    </div>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div
+                        class="h-1 display-prop dropdown justify-content-end align-items-center d-flex col-6 col-lg-6 col-md-6">
+                        <div class="get">
+                            <h7>User 12038</h7>
+                            <spam class="text-muted">Amazon</spam>
+                        </div>
+
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle px-3"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle">
+                        </a>
+                        <!-- <ul class="dropdown-menu  text-small">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul> -->
+                        <div class="lan">
+                            <span class="line"></span>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                                <i class="fa-solid fa-globe pe-2"></i>EN
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="slide-sectin">
+        <div class="container-fluid">
+            <div class="slides">
+                <a href="#"><i class="fa-solid fa-house"></i></a><i class="fa-solid fa-angle-right"></i>
+                <a href="#">Configuration</a><i class="fa-solid fa-angle-right"></i>
+                <a href="#">Activity Setup</a><i class="fa-solid fa-angle-right"></i>
+                <a href="#">Workflow</a>
+            </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="border-1 col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="Add-Work">
+                <h1>Add Workflow</h1>
+            </div>
+            <div class="border-2  d-lg-flex">
+                <div class="box-1 spc col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <form>
+                        <div class="mb-4">
+                            <label class="form-label">Work Code*</label>
+                            <input type="text" class="form-control all-input" placeholder="Enter Work Code">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Work Description*</label>
+                            <input type="text" class="form-control all-input" placeholder="Enter Work Description">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label" for="pet-select">Work Type*</label>
+                            <select class="form-select all-input" aria-label="Default select example">
+                                <option selected>Select Work Type</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label">Is Enable*</label>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="box-1 spc-2 col-12 col-xl-3 col-lg-3 col-md-12 col-sm-12 ">
+                    <h2 class="active-type mb-4">Available Activity Types</h2>
+                    <div class="border-3">
+                        <div class="hea-1 d-flex justify-content-evenly">
+                            <h6>
+                                Activity Code
+                            </h6>
+                            <h6>Description</h6>
+                        </div>
+                        <div class="hea-2 d-flex justify-content-evenly">
+                            <p>ITM Pick CFM</p>
+                            <p>picking Confirm</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box-1 gap-5 arrow arr-1 col-lg-1 col-xl-1 col-md-12 col-sm-12 col-12">
+                    <button class="btn bg-secondary  mb-4" type="button"><i
+                            class="fa-solid fa-angle-right pe-0 "></i></button>
+                    <button class="btn bg-secondary " type="button"><i
+                            class="fa-solid fa-angle-left pe-0 "></i></button>
+                </div>
+                <div class="box-1 spc col-12 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                    <h2 class="active-type mb-4">Selected Activity Types</h2>
+                    <div class="border-4">
+                        <div class="hea-1 d-flex justify-content-between">
+                            <h6>
+                                Is Enable
+                            </h6>
+                            <h6>
+                                Activity Code
+                            </h6>
+                            <h6>Description</h6>
+                        </div>
+                        <div class="hea-3 d-flex justify-content-between">
+                            <p><input type="checkbox"></p>
+                            <p class="ab">ITM Pick CFM</p>
+                            <p>picking Confirm</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box-1 arrow gap-5 arr-2 col-xl-1 col-lg-1  col-md-12 col-sm-12 col-12">
+                    <button class="btn bg-secondary  mb-4" type="button"><i
+                            class="fa-solid fa-angle-up pe-0"></i></button>
+                    <button class="btn bg-secondary " type="button"><i
+                            class="fa-solid fa-angle-down pe-0 "></i></button>
+                </div>
+            </div>
+            <div class="btn-last col-12 col-lg-12 d-flex justify-content-end pt-5">
+                <button type="button" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i>Save</button>
+                <button type="button" class="btn btn-outline-dark mx-3"><i
+                        class="fa-solid fa-brush"></i>Clear</button>
+                <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-xmark"></i>Cancel</button>
+            </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
